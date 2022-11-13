@@ -1,10 +1,8 @@
-import sys
-import requests
-import math
-from os import rename
 
-name = input("your name? ")
-print("hello,", name)
+import requests
+
+r = requests.get("https://coreyms.com")
+print(r.status_code)
 
 
 ## shift + option  + F  -> formating the codes
